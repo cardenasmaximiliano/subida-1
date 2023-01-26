@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-flex{
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap; /*direction wrap**/
+    justify-content: space-evenly;
+    column-gap: 20px;
+    row-gap: 10px;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    
+}
+
+.item-1 {
+    background-color: lightblue;
+    
+}
+.item-2 {
+    background-color: rgb(173, 230, 191);
+}
+.item-3 {
+    background-color: rgb(199, 173, 230);
+}
+.item-4 {
+    background-color: rgb(230, 173, 218);
+}
+.item-5 {
+    background-color: rgb(230, 173, 183);
+}
+.item-6 {
+    background-color: rgb(230, 226, 173);
+}
